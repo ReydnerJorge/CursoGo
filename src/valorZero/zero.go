@@ -12,3 +12,12 @@ func main() {
 	fmt.Printf("%v, %T\n", z, z)
 	fmt.Printf("%v, %T", w, w)
 }
+
+/*
+Os zeros para cada tipo:
+ints: 0
+floats: 0.0
+booleans: false
+string: ""
+pointers, functions, interfaces, slices, channels, maps: nil
+*/
