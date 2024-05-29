@@ -10,6 +10,8 @@ func main() {
 	fmt.Printf("x: %v, %T\n", x, x)
 	fmt.Printf("y: %v, %T\n", y, y)
 	fmt.Printf("z: %v, %T\n", z, z)
+
+    fmt.Printf("%v\n%v\n%v", x, y, z)
 }
 
 /*
