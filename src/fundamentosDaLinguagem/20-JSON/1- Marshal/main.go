@@ -8,9 +8,9 @@ import (
 )
 
 type cachorro struct {
-	Nome  string `json: "nome"`
-	Raca  string `json: "raca"`
-	Idade int    `json: "idade"`
+	nome  string `json: "nome"`
+	raca  string `json: "raca"`
+	idade int    `json: "idade"`
 }
 
 func main() {
